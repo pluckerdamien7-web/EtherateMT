@@ -1,4 +1,4 @@
-/*
+ /*
  * License: MIT
  *
  * Copyright (c) 2017-2020 James Bensley.
