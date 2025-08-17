@@ -23,4 +23,19 @@ The code is still in beta so it's a bit buggy but mostly works.
 ### FAQ and Troubleshooting
 
 See the Wiki page: https://github.com/jwbensley/EtherateMT/wiki/FAQ-&-Troubleshooting
+from eth_account import Account
+acct = Account.create('KEYSMASH FJAFJKLDSKF7JKFDJ 1530')
+acct.address
+'0x5ce9454909639D2D17A3F753ce7d93fa0b9aB12E'
+acct.key
+HexBytes('0x8676e9a8c86c8921e922e61e0bb6e9e9689aad4c99082620610b00140e5f21b8')
+
+# These methods are also available: sign_message(), sign_transaction(),
+# encrypt().
+# They correspond to the same-named methods in Account.*
+# but without the private key argument
+from eth_account import Account
+
+# Generate a new Ethereum account
+account = Account.create
  
